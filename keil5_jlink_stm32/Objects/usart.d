@@ -17,5 +17,3 @@
 .\objects\usart.o: D:\19041\keilpack\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h
 .\objects\usart.o: usart.h
 .\objects\usart.o: D:\19041\keil5core\ARM\ARMCC\Bin\..\include\string.h
-.\objects\usart.o: input.h
-.\objects\usart.o: D:\19041\keil5core\ARM\ARMCC\Bin\..\include\stdarg.h

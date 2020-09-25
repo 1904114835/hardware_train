@@ -21,35 +21,38 @@ Target DLL:      Segger\JL2CM3.dll V2.99.38.0
 Dialog DLL:      DRAMSTM.DLL
  
 <h2>Project:</h2>
-C:\Users\19041\Desktop\硬件综合\code\all_use\ours\big_work.uvprojx
+D:\大三下课程\硬件综合\code\all_use\keil5_jlink_stm32\big_work.uvprojx
 Project File Date:  09/22/2020
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\19041\keil5core\ARM\ARMCC\Bin'
 Rebuild target 'Target 1'
-compiling main.c...
-compiling stm32f10x_exti.c...
-compiling time.c...
 compiling misc.c...
+compiling stm32f10x_exti.c...
 compiling stm32f10x_gpio.c...
+compiling time.c...
 compiling stm32f10x_rcc.c...
+compiling main.c...
+main.h(5): warning:  #1-D: last line of file ends without a newline
+  u8 USART1_RX_LEN;
+main.c: 1 warning, 0 errors
 compiling usart.c...
-usart.c(56): warning:  #223-D: function "forward" declared implicitly
+usart.c(55): warning:  #223-D: function "forward" declared implicitly
   			forward(1000);
-usart.c(60): warning:  #223-D: function "backward" declared implicitly
+usart.c(59): warning:  #223-D: function "backward" declared implicitly
   			backward(1000);
-usart.c(64): warning:  #223-D: function "turnLeft" declared implicitly
+usart.c(63): warning:  #223-D: function "turnLeft" declared implicitly
   			turnLeft(1000);
-usart.c(68): warning:  #223-D: function "turnRight" declared implicitly
+usart.c(67): warning:  #223-D: function "turnRight" declared implicitly
   			turnRight(1000);
 usart.c: 4 warnings, 0 errors
 assembling startup_stm32f10x_hd.s...
-compiling stm32f10x_usart.c...
 compiling system_stm32f10x.c...
+compiling stm32f10x_usart.c...
 compiling stm32f10x_tim.c...
 linking...
 Program Size: Code=3024 RO-data=336 RW-data=20 ZI-data=1636  
-".\Objects\big_work.axf" - 0 Error(s), 4 Warning(s).
+".\Objects\big_work.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -83,20 +86,20 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.4.0
 
    * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_hd.s
       Source file:   Device\Source\system_stm32f10x.c
       Source file:   Device\Source\ARM\STM32F1xx_OPT.s
       Include file:  RTE_Driver\Config\RTE_Device.h
-      Source file:   Device\Source\ARM\startup_stm32f10x_hd.s
 
    * Component: Keil::Device:StdPeriph Drivers:EXTI:3.5.0
       Source file:   Device\StdPeriph_Driver\src\stm32f10x_exti.c
       Include file:  Device\StdPeriph_Driver\inc\stm32f10x_exti.h
 
    * Component: Keil::Device:StdPeriph Drivers:Framework:3.5.1
-      Include file:  Device\StdPeriph_Driver\inc\misc.h
       Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
       Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
       Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
       Source file:   Device\StdPeriph_Driver\src\misc.c
 
    * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
@@ -108,12 +111,12 @@ Package Vendor: Keil
       Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
 
    * Component: Keil::Device:StdPeriph Drivers:TIM:3.5.0
-      Source file:   Device\StdPeriph_Driver\src\stm32f10x_tim.c
       Include file:  Device\StdPeriph_Driver\inc\stm32f10x_tim.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_tim.c
 
    * Component: Keil::Device:StdPeriph Drivers:USART:3.5.0
-      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_usart.h
       Source file:   Device\StdPeriph_Driver\src\stm32f10x_usart.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_usart.h
 Build Time Elapsed:  00:00:03
 </pre>
 </body>

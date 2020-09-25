@@ -10,7 +10,7 @@ def ones():
     FORMAT = pyaudio.paInt16
     CHANNELS = 1
     RATE = 16000
-    RECORD_SECONDS = 1#检查长度
+    RECORD_SECONDS = 0.5#检查长度
     p = pyaudio.PyAudio()
     stream = p.open(format=FORMAT,
                     channels=CHANNELS,

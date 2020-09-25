@@ -1,6 +1,5 @@
 #include <string.h>
 #include <stm32f10x.h>
-#include "input.h"
 
 #define USART1_REC_LEN 5
 

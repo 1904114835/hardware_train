@@ -18,7 +18,3 @@
 .\objects\time.o: D:\19041\keil5core\ARM\ARMCC\Bin\..\include\string.h
 .\objects\time.o: time.h
 .\objects\time.o: usart.h
-.\objects\time.o: input.h
-.\objects\time.o: D:\19041\keil5core\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\time.o: usart3.h
-.\objects\time.o: input.h

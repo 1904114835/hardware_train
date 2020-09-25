@@ -13,10 +13,9 @@ void delay_ms(u16 time)
    while(time--)
    {
       i=12000;  
-      while(i--) ;    
+      while(i--);    
    }
 }
-
 
 void yq(int direc)
 {

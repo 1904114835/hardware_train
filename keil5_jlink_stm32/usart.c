@@ -2,7 +2,6 @@
 #include "usart.h"
 
 
-
 void uart1_init(u32 bound)
 {
   //GPIO¶Ë¿ÚÉèÖÃ
